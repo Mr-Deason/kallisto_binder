@@ -1,1 +1,1 @@
-scipy scikit-learn
+scipy
