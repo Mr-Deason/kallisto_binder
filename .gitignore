@@ -1,3 +1,2 @@
-test/fastq_files/desktop.ini
-.ipynb_checkpoints/desktop.ini
 *.ini
+.ipynb_checkpoints
