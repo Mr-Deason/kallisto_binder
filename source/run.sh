@@ -1,0 +1,1 @@
+python get_cell_barcodes.py /mnt/c/Users/MrD_s/Documents/GitHub/scRNA-Seq-TCC-prep/example_dataset/config.bash.json

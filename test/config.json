@@ -1,0 +1,17 @@
+{
+    "NUM_THREADS": 4,
+    "WINDOW": [500, 5000],
+    "SOURCE_DIR": "/home/main/notebooks/source/",
+    "BASE_DIR": "/home/main/notebooks/test/",
+    "sample_idx": ["ATCGCTCC","CCGTACAG","GATAGGTA","TGACTAGT"],
+    "SAVE_DIR": "/home/main/notebooks/test/save_dir/",
+    "dmin": 5,
+    "BARCODE_LENGTH": 14,
+    "OUTPUT_DIR": "/home/main/notebooks/test/output/",
+    "kallisto":{
+        "binary": "/home/main/notebooks/kallisto/",
+        "index": "/home/main/notebooks/test/transcripts.idx",
+        "TCC_output" : "/home/main/notebooks/test/TCC_output/"
+    }
+}
+
