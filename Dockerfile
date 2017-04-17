@@ -5,8 +5,6 @@ USER root
 # Add dependency
 RUN apt-get update
 
-USER main
-
 # Install requirements for Python 2
 ADD requirements.txt requirements.txt
 RUN pip install --upgrade pip
