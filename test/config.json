@@ -1,17 +1,17 @@
 {
-    "NUM_THREADS": 4,
+    "NUM_THREADS": 8,
     "WINDOW": [500, 5000],
-    "SOURCE_DIR": "/home/main/notebooks/source/",
-    "BASE_DIR": "/home/main/notebooks/test/fastq_files/",
+    "SOURCE_DIR": "/mnt/c/Users/MrD_s/Documents/GitHub/scRNA-Seq-TCC-prep/source/",
+    "BASE_DIR": "/mnt/c/Users/MrD_s/Documents/GitHub/scRNA-Seq-TCC-prep/example_dataset/fastq_files/",
     "sample_idx": ["ATCGCTCC","CCGTACAG","GATAGGTA","TGACTAGT"],
-    "SAVE_DIR": "/home/main/notebooks/test/save_dir/",
+    "SAVE_DIR": "/mnt/c/Users/MrD_s/Documents/GitHub/scRNA-Seq-TCC-prep/example_dataset/save_dir/",
     "dmin": 5,
     "BARCODE_LENGTH": 14,
-    "OUTPUT_DIR": "/home/main/notebooks/test/output/",
+    "OUTPUT_DIR": "/mnt/c/Users/MrD_s/Documents/GitHub/scRNA-Seq-TCC-prep/example_dataset/output/",
     "kallisto":{
-        "binary": "/home/main/notebooks/kallisto/",
-        "index": "/home/main/notebooks/test/transcripts.idx",
-        "TCC_output" : "/home/main/notebooks/test/TCC_output/"
+        "binary": "/mnt/c/python/kallisto/",
+        "index": "/path/to/kallisto_index.idx",
+        "TCC_output" : "/mnt/c/Users/MrD_s/Documents/GitHub/scRNA-Seq-TCC-prep/example_dataset/TCC_output/"
     }
 }
 
